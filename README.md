@@ -14,7 +14,7 @@ Make sure you have the following installed:
 1. Clone or Download the Project
 Download the project files to your local machine.
 
-_git clone https://github.com/yourusername/keylogger.git_
+_git clone https://github.com/shakestush/keylogger.git_
 
 2. Modify the Script
 Open the keylogger.py script and update the following:
@@ -48,3 +48,6 @@ _python keylogger.py_
 
 # Contributions
 Feel free to submit issues or pull requests if you'd like to contribute to this project.
+
+# License
+- This project is for educational use only. Use it at your own risk.
