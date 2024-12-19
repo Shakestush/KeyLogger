@@ -26,25 +26,25 @@ Open the keylogger.py script and update the following:
 Execute the script in your terminal:
 
 _python keylogger.py_
--The script will now capture keystrokes and send the logs to the specified email periodically.
+- The script will now capture keystrokes and send the logs to the specified email periodically.
 
 # How It Works
-1.Keystroke Logging: The pynput library is used to listen for key presses. Each key is logged and stored in the log variable.
-2.Sending Logs: Every 60 seconds, the captured keystrokes are sent to the specified email via Gmail's SMTP server.
-3.Email Credentials: The email login details (sender's email and app password) are required to send the logs.
+1. Keystroke Logging: The pynput library is used to listen for key presses. Each key is logged and stored in the log variable.
+2. Sending Logs: Every 60 seconds, the captured keystrokes are sent to the specified email via Gmail's SMTP server.
+3. Email Credentials: The email login details (sender's email and app password) are required to send the logs.
 
 # Ethical Usage
-This tool should only be used in environments where you have explicit consent. You are responsible for the legal and ethical implications of using this software.
-Do not use this tool on machines or networks without permission. Unauthorized use is illegal.
+- This tool should only be used in environments where you have explicit consent. You are responsible for the legal and ethical implications of using this software.
+- Do not use this tool on machines or networks without permission. Unauthorized use is illegal.
 
 # Limitations
-The keylogger works only on the machine it's running on.
-It uses SMTP to send logs, which may be blocked by some email providers if flagged as suspicious.
-This keylogger is not designed to capture all types of input (e.g., mouse movements, clipboard content).
+- The keylogger works only on the machine it's running on.
+- It uses SMTP to send logs, which may be blocked by some email providers if flagged as suspicious.
+- This keylogger is not designed to capture all types of input (e.g., mouse movements, clipboard content).
 
 # Troubleshooting
-Gmail Login Error: If Gmail rejects the login attempt, ensure that you've enabled 2-Step Verification and generated an App Password. Do not use your regular email password.
-Antivirus Software: Some antivirus programs may flag the keylogger as malicious. Disable antivirus software only for testing purposes, but be aware of the security risks.
+- Gmail Login Error: If Gmail rejects the login attempt, ensure that you've enabled 2-Step Verification and generated an App Password. Do not use your regular email password.
+- Antivirus Software: Some antivirus programs may flag the keylogger as malicious. Disable antivirus software only for testing purposes, but be aware of the security risks.
 
 # Contributions
 Feel free to submit issues or pull requests if you'd like to contribute to this project.
