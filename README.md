@@ -1,5 +1,5 @@
 # KeyLogger
-This is a simple Python-based keylogger that captures keyboard input and sends it to an email. The keylogger runs in the background and logs keystrokes, then periodically sends them to your specified email address
+This is a simple Python-based keylogger that captures keyboard input and sends it to an email. The keylogger runs in the background and logs keystrokes, then periodically sends them to your specified email address.
 # Features
 - Captures keystrokes in real-time.
 - Logs alphanumeric characters and special keys (e.g., space, enter).
